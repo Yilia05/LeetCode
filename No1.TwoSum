@@ -31,7 +31,7 @@ public class Solution {
 
 
 
-//O(n) solution:
+//O(n) solution:using hashmap
 
 public int[] twoSum(int[] numbers, int target) {
     int[] result = new int[2];
