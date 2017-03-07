@@ -1,0 +1,98 @@
+/**
+The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+
+Given two integers x and y, calculate the Hamming distance.
+
+Note:
+0 ≤ x, y < 231.
+
+Example:
+
+Input: x = 1, y = 4
+
+Output: 2
+
+Explanation:
+1   (0 0 0 1)
+4   (0 1 0 0)
+       ↑   ↑
+
+The above arrows point to positions where the corresponding bits are different.
+*/
+比较不同两个整数x,y比特数不同的位数，一种思路可以对其依次右移，比较其最低位是否相同，使用累加器计算相同的位数。 明显复杂度高。
+也可以先将x,y进行异或得到z，则z二进制串中1的个数即是所求汉明距。从而将问题转化为求二进制数中1的个数。
+
+重点在于求二进制中1的个数
+
+//方法一：n和1求&，当n的末位是1时，&结果是1
+public class Solution {
+    public int hammingDistance(int x, int y) {
+        int xor = x ^ y;
+        int count = 0;
+        for(int i = 0;i < 32;i++){
+        //n和1求&，当n的末位是1时，&结果是1
+            if((xor&1)!=0){
+            count++;
+            }
+            xor>>=1;
+        }
+        return count;
+    }
+}
+
+//方法二：正整数的二进制数最高位为 0 ，负整数和二进制数最高们为 1 ，则可利用左移、判断正负来实现 1 的个数的计算。
+while(x!=0){  
+         if(x<0){  
+            count++;  
+         }  
+         x = x<<1;  
+      }  
+
+//方法三：前面的三种解法，运算的次数为二进制数的位数，然而我们要计算 1 的个数，若让算法的运算次数只与“ 1 ”的个数有关，那复杂度就能进一步降低。
+//思想： x & (x-1) 可以消去 x 二进制数的最后一位 1
+
+while ( x != 0 ){  
+        x &= x - 1;  
+        count++;  
+       }  
+
+//方法四： JAVA的JDK库里 Integer 有个 bitCount 方法
+return Integer.bitCount(x ^ y);
+
+bitCount()源码：
+/** 
+* Returns the number of one-bits in the two's complement binary 
+* representation of the specified <tt>int</tt> value.  This function is 
+* sometimes referred to as the <i>population count</i>. 
+* 
+* @return the number of one-bits in the two's complement binary 
+*     representation of the specified <tt>int</tt> value. 
+* @since 1.5 
+*/  
+
+public static int bitCount(int i) {  
+       // HD, Figure 5-2  
+    i = i - ((i >>> 1) & 0x55555555);  //
+    i = (i & 0x33333333) + ((i >>> 2) & 0x33333333);  
+    i = (i + (i >>> 4)) & 0x0f0f0f0f;  
+    i = i + (i >>> 8);  
+    i = i + (i >>> 16);  
+    return i & 0x3f;  
+}  
+
+
+二分法，两两一组相加，之后四个四个一组相加，接着八个八个，最后就得到各位之和了。
+
+第一行是计算每两位中的 1 的个数 , 并且用该对应的两位来存储这个个数 ,
+如 : 01101100 -> 01011000 , 
+即先把前者每两位分段 01 10 11 00, 分别有 1 1 2 0 个 1, 
+用两位二进制数表示为 01 01 10 00, 合起来为 01011000.
+
+第二行是计算每四位中的 1 的个数 , 并且用该对应的四位来存储这个个数 .
+如 : 01101100 经过第一行计算后得 01011000 , 
+把 01011000 每四位分段成 0101 1000 , 
+段内移位相加 : 前段 01+01 =10 , 后段 10+00=10, 
+分别用四位二进制数表示为 0010 0010, 合起来为 00100010 .
+下面的各行以此类推 , 分别计算每 8 位 ,16 位 ,32 位中的 1 的个数 .
+将 0x55555555, 0x33333333, 0x0f0f0f0f 写成二进制数的形式就容易明白了 .
+  0x55555555 是01010101010101010101010101010101
