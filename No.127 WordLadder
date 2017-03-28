@@ -67,3 +67,7 @@ public class Solution {
       return 0;
   }
 }
+
+
+//题目后来改成了public int ladderLength(String beginWord, String endWord, List<String> wordList)
+//这样超时了
