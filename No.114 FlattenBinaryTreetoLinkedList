@@ -1,0 +1,67 @@
+/**
+Given a binary tree, flatten it to a linked list in-place.
+
+For example,
+Given
+
+         1
+        / \
+       2   5
+      / \   \
+     3   4   6
+The flattened tree should look like:
+   1
+    \
+     2
+      \
+       3
+        \
+         4
+          \
+           5
+            \
+             6
+*/
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+       public static void flatten(TreeNode root) {
+        TreeNode cur = null;
+        if(root == null){
+            System.out.println("NULL");
+            cur = null;
+        }
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        
+        //先序遍历，存入队列queue
+        while (root!=null || !stack.empty()){
+            while (root != null){
+                queue.add(root);
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            root = root.right;
+        }
+        
+        //依次出队列建树
+        if(!queue.isEmpty())
+            cur = queue.poll();
+        while (!queue.isEmpty()){
+            cur.right = queue.poll();
+            cur.left = null;
+            cur = cur.right;
+        }
+
+
+    }
+}
