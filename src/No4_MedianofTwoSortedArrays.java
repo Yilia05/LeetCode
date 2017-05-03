@@ -14,6 +14,7 @@ import sun.reflect.generics.tree.SimpleClassTypeSignature;
  * The median is (2 + 3)/2 = 2.5
  */
 public class No4_MedianofTwoSortedArrays {
+
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n = nums1.length;
         int m = nums2.length;
@@ -72,8 +73,6 @@ public class No4_MedianofTwoSortedArrays {
                 return (maxOfLeft + minOfRight)/2.0;
             }
         }
-//        System.out.println("out while");
-//        return 0.0;
     }
 
     public static void main(String[] args){
