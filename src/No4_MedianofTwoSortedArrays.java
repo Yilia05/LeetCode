@@ -76,8 +76,8 @@ public class No4_MedianofTwoSortedArrays {
     }
 
     public static void main(String[] args){
-        int[] nums1 = {};
-        int[] nums2 = {2,3};
+        int[] nums1 = {1,2,3,4,5};
+        int[] nums2 = {2,3,4,5,6,7};
         double re = findMedianSortedArrays(nums1,nums2);
         System.out.println(re);
 
