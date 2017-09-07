@@ -10,7 +10,7 @@ Note:
 The input is assumed to be a 32-bit signed integer. Your function should return 0 when the reversed integer overflows
 */
 
-public class Solution {
+public class No7_ReverseInteger {
     public int reverse(int x){
         int result = 0;
     
