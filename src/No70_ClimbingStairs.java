@@ -7,7 +7,7 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 */
 
 
-public class Solution {
+public class No70_ClimbingStairs {
     public int climbStairs(int n) {
         int[] a = new int[n+1];
         a[0] = 1;

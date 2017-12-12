@@ -18,8 +18,9 @@ public class No25_ReverseNodesinkGroup {
             cur = cur.next;
             count++;
         }
-        if(count<k)
+        if(count<k){
             return head;
+        }
         else{
             cur = reverseKGroup(cur,k);
             while(count >0){//尾插法单链表逆序
