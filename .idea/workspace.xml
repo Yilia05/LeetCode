@@ -1,68 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8f10657-d123-4940-924a-b5e2e3b2b943" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/ListNode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No10_RegularExpressionMatching.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No14_LongestCommonPrefix.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No16_3SumClosest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No17_LetterCombinationsofaPhoneNumber.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No18_4Sum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No19_RemoveNthNodeFromEndofList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No23_MergekSortedLists$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No23_MergekSortedLists.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No24_SwapNodesinPairs.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No25_ReverseNodesinkGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No32_LongestValidParentheses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No4_MedianofTwoSortedArrays.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No5_LongestPalindromicSubstring.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No6_ZigZagConversion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No7_ReverseInteger.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No8_StringToInterger.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No9_PalindromeNumber.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/Microsoft2.Diligent Robots" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.11 ContainerWithMostWater" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.114 FlattenBinaryTreetoLinkedList" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.12 IntegertoRoman" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.125 ValidPalindrome" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.127 WordLadder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.13 RomantoInteger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.131 PalindromePartitioning" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.15 3Sum" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.153 FindMinimuminRotatedSortedArray" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.154 FindMinimuminRotatedSortedArrayII" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.174 Dungeon Game" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.179 LargestNumber" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.20 Valid Parentheses" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.202 HappyNumber" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.21 MergeTwoSortedLists" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.22 Generate Parentheses" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.240 SearchA2DMatrixII" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.28 ImplementstrStr()" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.332 Reconstruct Itinerary" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.338 CountingBits" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.401 BinaryWatch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.452 MinimumNumberofArrowstoBurstBalloons" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.461 HammingDistance" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.477 TotalHammingDistance" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.494 TargetSum" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.494 TargetSum(1)" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.523 ContinuousSubarraySum" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.524 LongestWordinDictionarythroughDeleting" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.547 FriendCircles" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.56 MergeIntervals" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.57 InsertInterval" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.65 ValidNumber" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.70 ClimbingStairs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.73 SetMatrixZeroes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.78 Subsets" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.79 WordSearch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.88 MergeSortedArray" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.89 GrayCode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.94 BinaryTreeInorderTraversal" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/No.98 ValidateBinarySearchTree" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/No101_SymmetricTree.java" />
+    <list default="true" id="b8f10657-d123-4940-924a-b5e2e3b2b943" name="Default" comment="No.107 solution">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/No104_MaximumDepthofBinaryTree.java" afterPath="$PROJECT_DIR$/src/No104_MaximumDepthofBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/No107_BinaryTreeLevelOrderTraversalII.java" afterPath="$PROJECT_DIR$/src/No107_BinaryTreeLevelOrderTraversalII.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,6 +17,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="No108_ConvertSortedArraytoBinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/No108_ConvertSortedArraytoBinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,21 +37,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="No100_SameTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/No100_SameTree.java">
+      <file leaf-file-name="No104_MaximumDepthofBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/No104_MaximumDepthofBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="198">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="No101_SymmetricTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/No101_SymmetricTree.java">
+      <file leaf-file-name="No107_BinaryTreeLevelOrderTraversalII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/No107_BinaryTreeLevelOrderTraversalII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="132">
+              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="No110_BalancedBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/No110_BalancedBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="570" column="6" lean-forward="true" selection-start-line="570" selection-start-column="6" selection-end-line="570" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -108,8 +82,8 @@
       <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -175,6 +149,9 @@
         <option value="$PROJECT_DIR$/src/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/No100_SameTree.java" />
         <option value="$PROJECT_DIR$/src/No101_SymmetricTree.java" />
+        <option value="$PROJECT_DIR$/src/No104_MaximumDepthofBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/No107_BinaryTreeLevelOrderTraversalII.java" />
+        <option value="$PROJECT_DIR$/src/No110_BalancedBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -208,6 +185,86 @@
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="LeetCode" />
@@ -838,7 +895,7 @@
       <workItem from="1510552867667" duration="13180000" />
       <workItem from="1512095939106" duration="758000" />
       <workItem from="1512098017544" duration="189000" />
-      <workItem from="1512982719502" duration="14187000" />
+      <workItem from="1512982719502" duration="27108000" />
     </task>
     <task id="LOCAL-00001" summary="No.4 solution">
       <created>1493709220653</created>
@@ -980,11 +1037,39 @@
       <option name="project" value="LOCAL" />
       <updated>1513048561892</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="No.101 solution">
+      <created>1513056494809</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1513056494809</updated>
+    </task>
+    <task id="LOCAL-00022" summary="No.104 solution">
+      <created>1508224455324</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1508224455324</updated>
+    </task>
+    <task id="LOCAL-00023" summary="No.107 solution">
+      <created>1508317472549</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1508317472549</updated>
+    </task>
+    <task id="LOCAL-00024" summary="No.110 solution">
+      <created>1508422121278</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1508422121278</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176912000" />
+    <option name="totallyTimeSpent" value="189833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1004,12 +1089,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.319053" sideWeight="0.5236305" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26832017" sideWeight="0.5338346" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.4914071" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26832017" sideWeight="0.46079484" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26832017" sideWeight="0.46616542" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.319053" sideWeight="0.4763695" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.319053" sideWeight="0.4763695" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2008593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1088,7 +1173,11 @@
     <MESSAGE value="No.31 solution" />
     <MESSAGE value="No.83 solution" />
     <MESSAGE value="No.100 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="No.100 solution" />
+    <MESSAGE value="No.101 solution" />
+    <MESSAGE value="No.104 solution" />
+    <MESSAGE value="No.107 solution" />
+    <MESSAGE value="No.110 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="No.110 solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1109,7 +1198,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="60" />
+      <option name="time" value="61" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1126,49 +1215,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/No.494 TargetSum">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/No5_LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2948">
-          <caret line="161" column="11" lean-forward="false" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/No4_MedianofTwoSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="70" column="17" lean-forward="false" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/No23_MergekSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/No24_SwapNodesinPairs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1262,14 +1308,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/No38_CountAndSay.java" />
-    <entry file="file://$PROJECT_DIR$/src/No108_ConvertSortedArraytoBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/No.523 ContinuousSubarraySum">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1580,14 +1618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/No17_LetterCombinationsofaPhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/No18_4Sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -1662,18 +1692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/No101_SymmetricTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1686,10 +1708,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/No101_SymmetricTree.java">
+    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No17_LetterCombinationsofaPhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No.11 ContainerWithMostWater">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Microsoft2.Diligent Robots">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="570" column="6" lean-forward="true" selection-start-line="570" selection-start-column="6" selection-end-line="570" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No104_MaximumDepthofBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No108_ConvertSortedArraytoBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No107_BinaryTreeLevelOrderTraversalII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/No110_BalancedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
           <folding />
         </state>
       </provider>

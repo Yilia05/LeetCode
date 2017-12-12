@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 /**
- * Created by yzhang46 on 2017/12/12.
+ * Created by yzhang46 on 2017/10/17.
  * Given a binary tree, find its maximum depth.
  * The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
  */
@@ -29,6 +29,5 @@ public class No104_MaximumDepthofBinaryTree {
             }
         }
         return max;
-
     }
 }
