@@ -1,0 +1,43 @@
+import java.util.Arrays;
+import java.util.Comparator;
+
+/**
+ * Created by Yilia05 on 2017/4/9 0009.
+ * Q:
+ * Given a list of non negative integers, arrange them such that they form the largest number.
+ * For example, given [3, 30, 34, 5, 9], the largest formed number is 9534330.
+ * Note: The result may be very large, so you need to return a string instead of an integer.
+ *
+ * 分析：首先想到的是对每个数字的第一位先进行排列，然后如果有第二位再排列，纯int做会很麻烦
+ * 所以想到转换成String再比较。
+ * 比如a="30",b="3",直接比较字符串的结果是a>b组成303，而目标是330，所以想到比较的是a+b和b+a;
+ * 对于样例，可以看出b+a>a+b,(a+b).compareTo(b+a)返回的是负，对于sort(),返回负代表从小到大排列；
+ * (b+a).compareTo(a+b)返回的是正，符合题意从大到小排列。
+ * 排序之后将所有结果拼接成一个字符串即可。
+ *
+ * 注意[0][0]这种情况，返回的应该为0，这种情况下首位是0。
+ *
+ */
+public class No179_LargestNumber {
+    public String largestNumber(int[] nums) {
+        String[] str = new String[nums.length];
+        for(int i = 0;i<nums.length;i++){
+            str[i] = Integer.toString(nums[i]);
+        }
+        Arrays.sort(str, new Comparator<String>() {
+            @Override
+            public int compare(String a, String b) {
+                return (b+a).compareTo(a+b);
+            }
+        });
+        StringBuilder ans = new StringBuilder();
+        for(String temp :str){
+            ans.append(temp);
+        }
+        if (ans.charAt(0)=='0'){//如果是[0,0]，则要返回0
+            ans = new StringBuilder("0");
+        }
+        return ans.toString();
+
+    }
+}
