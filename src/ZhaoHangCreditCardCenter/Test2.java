@@ -1,7 +1,6 @@
 package ZhaoHangCreditCardCenter;
 
 import java.util.Scanner;
-
 /**
  * Created by yzhang46 on 2018/3/29.
  */
