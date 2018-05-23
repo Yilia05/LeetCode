@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class alibaba2018Spring {
   /** 请完成下面这个函数，实现题目要求的功能

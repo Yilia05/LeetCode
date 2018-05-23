@@ -6,8 +6,9 @@
 public class No206_ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode start = null;
+        ListNode next = null;
         while (head != null){
-            ListNode next = head.next;
+            next = head.next;
             head.next = start;
             start = head;
             head = next;
